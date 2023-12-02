@@ -1,4 +1,4 @@
-# CWW-TECH-INDIVIDUAL-PROJECT USING R Office Equipments and Stationaries Product Sales EDA
+# CWW-TECH-INDIVIDUAL-PROJECT USING R Office Pens and Printers Product Sales EDA
 
 PROBLEMS 
 
