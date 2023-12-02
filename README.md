@@ -1,4 +1,4 @@
-# CWW-TECH-INDIVIDUAL-PROJECT WITH R
+# CWW-TECH-INDIVIDUAL-PROJECT WITH R Office Equipments and Stationaries Product Sales EDA
 install.packages("ggplot2")
 install.packages("dplyr")
 dim(personal_project) 
