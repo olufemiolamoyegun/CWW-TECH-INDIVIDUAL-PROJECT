@@ -183,4 +183,10 @@ spc_tbl_ [15,000 × 9] (S3: spec_tbl_df/tbl_df/tbl/data.frame)
    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
   32.54   52.65   90.95   95.58  107.75  238.32 
 > par(mar=c(1,1,1,1))
-> hist(personal_project[[“revenue”]], main = “Histogram of Number of Items Sold”, xlab = “Number of Items Sold”)
+> hist(personal_project[[“revenue”]], main = “Histogram of Number of Items Sold”, xlab = “Number of Items Sold”) 
+ggplot(data = melted_cor, aes(x = Var1, y = Var2, fill = value)) +
+  geom_tile() +
+  scale_fill_gradient2(low = "blue", high = "red", mid = "white", 
+                       midpoint = 0, limit = c(-1, 1), name = "Correlation") +
+  geom_text(aes(label = value), size = 4) +
+  theme_minimal()
