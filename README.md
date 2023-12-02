@@ -1,4 +1,17 @@
 # CWW-TECH-INDIVIDUAL-PROJECT WITH R Office Equipments and Stationaries Product Sales EDA
+
+PROBLEMS 
+
+Describe the validation and cleaning steps for every column in the data
+ Exploratory Analysis to answer the customer questions ensuring you include:
+ Two different types of graphics show single variables only
+At least one graphic showing two or more variables ©Description of your findings
+e Definition of a metric for the business to monitor
+1. How should the business monitor what they want to achieve?
+o Estimate the initial value(s) for the metric based on the current data.
+e Final summary including recommendations that the business should undertake
+
+
 install.packages("ggplot2")
 install.packages("dplyr")
 dim(personal_project) 
@@ -96,7 +109,9 @@ spc_tbl_ [15,000 × 9] (S3: spec_tbl_df/tbl_df/tbl/data.frame)
   .. ..- attr(*, "class")= chr [1:2] "collector_guess" "collector"
   ..$ delim  : chr ","
   ..- attr(*, "class")= chr "col_spec"
- - attr(*, "problems")=<externalptr> 
+ - attr(*, "problems")=<externalptr>
+
+EXPLANATORY ANALYSIS
       week             sales_method  customer_id           nb_sold     
  Min.   :1.000   Call        :4962   Length:15000       Min.   : 7.00  
  1st Qu.:2.000   Email       :7466   Class :character   1st Qu.: 9.00  
@@ -204,8 +219,6 @@ The result is a heatmap that shows the correlation between revenue and products 
 - Increase the number of items sold per customer by offering discounts, bundles, or cross-selling products.
 - Increase the retention and loyalty of the customers by providing excellent customer service, rewards, or referrals.
 - Increase the effectiveness of the sales methods by testing different combinations of email, call, and other channels, and measuring their impact on the revenue
-
-
 •	Increase the market share and reach of the business by expanding to new states or regions, or by targeting different segments of customers.
 •	Monitor the average revenue per customer over time and across different categories, and evaluate the performance and profitability of the business.
 
