@@ -194,5 +194,18 @@ ggplot(data = melted_cor, aes(x = Var1, y = Var2, fill = value)) +
 > # Calculate the correlation matrix between revenue, nb_sold, and sales_method
 ggplot(data = cor_matrix, aes(x = Var1, y = Var2, fill = value)) + geom_tile() + scale_fill_gradient2(low = “blue”, high = “red”, mid = “white”, midpoint = 0, name = “Correlation”) + theme_minimal() + theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust = 1))  
 
+
+The result is a heatmap that shows the correlation between revenue and products sold for different weeks. You can see that there is a positive correlation between revenue and products sold (0.67), a negative correlation between revenue and week (-0.16), and a weak correlation between products sold and week (-0.04).
+
 Conclusion and Summary 
+
+The result is a heatmap that shows the correlation between revenue and products sold for different weeks. You can see that there is a positive correlation between revenue and products sold (0.67), a negative correlation between revenue and week (-0.16), and a weak correlation between products sold and week (-0.04). 
+
+- Increase the number of items sold per customer by offering discounts, bundles, or cross-selling products.
+- Increase the retention and loyalty of the customers by providing excellent customer service, rewards, or referrals.
+- Increase the effectiveness of the sales methods by testing different combinations of email, call, and other channels, and measuring their impact on the revenue
+
+
+•	Increase the market share and reach of the business by expanding to new states or regions, or by targeting different segments of customers.
+•	Monitor the average revenue per customer over time and across different categories, and evaluate the performance and profitability of the business.
 
