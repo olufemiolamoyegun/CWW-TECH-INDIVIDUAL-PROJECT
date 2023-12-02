@@ -190,3 +190,9 @@ ggplot(data = melted_cor, aes(x = Var1, y = Var2, fill = value)) +
                        midpoint = 0, limit = c(-1, 1), name = "Correlation") +
   geom_text(aes(label = value), size = 4) +
   theme_minimal()
+>
+> # Calculate the correlation matrix between revenue, nb_sold, and sales_method
+ggplot(data = cor_matrix, aes(x = Var1, y = Var2, fill = value)) + geom_tile() + scale_fill_gradient2(low = “blue”, high = “red”, mid = “white”, midpoint = 0, name = “Correlation”) + theme_minimal() + theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust = 1))  
+
+Conclusion and Summary 
+
