@@ -1,4 +1,4 @@
-# CWW-TECH-INDIVIDUAL-PROJECT
+# CWW-TECH-INDIVIDUAL-PROJECT WITH R
 install.packages("ggplot2")
 install.packages("dplyr")
 dim(personal_project) 
