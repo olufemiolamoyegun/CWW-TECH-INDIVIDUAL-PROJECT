@@ -1,4 +1,4 @@
-CWW-TECH-INDIVIDUAL-PROJECT: Using R Office Pens and Printers - Product Sales EDA
+CWW-TECH-INDIVIDUAL-PROJECT: Using R to analyze Office Pens and Printers - Product Sales EDA
 
 Problem Overview
 In this exploratory data analysis (EDA), we will describe the steps taken to validate and clean the data columns in order to answer key customer questions. This will include:
@@ -61,10 +61,12 @@ ggplot(data = cor_matrix, aes(x = Var1, y = Var2, fill = value)) +
   scale_fill_gradient2(low = "blue", high = "red", mid = "white", midpoint = 0, name = "Correlation") + 
   theme_minimal() + 
   theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust = 1))
+
 Key Findings
 Revenue vs. Number of Items Sold: There is a positive correlation (0.67), indicating that as more items are sold, revenue increases.
 Revenue vs. Week: A slight negative correlation (-0.16) suggests that revenue tends to decrease slightly over time.
 Items Sold vs. Week: The weak correlation (-0.04) indicates that the number of items sold does not show a significant trend over time.
+
 Recommendations
 Based on the analysis, here are some strategic recommendations for improving business performance:
 
@@ -73,6 +75,7 @@ Customer Retention: Enhance customer retention by providing excellent service, r
 Optimize Sales Methods: Test various sales channel combinations (e.g., email, calls) to determine the most effective methods for driving revenue.
 Expand Market Reach: Explore opportunities to expand the market by targeting new states or regions, or diversifying customer segments.
 Track and Optimize: Continuously monitor average revenue per customer across different categories and time periods to measure profitability.
+
 Conclusion
 The analysis suggests that increasing the number of items sold per customer, improving customer loyalty, and refining sales methods are key drivers for boosting revenue. Monitoring the average revenue per customer will also help assess the impact of these initiatives over time.
 
